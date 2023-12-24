@@ -21,3 +21,8 @@ CREATE TABLE orders(
 	discount float NULL,
 	profit float NULL
 ),
+
+CREATE TABLE returns(
+	order_id nvarchar(255) NULL,
+	return_reason nvarchar(255) NULL
+);
